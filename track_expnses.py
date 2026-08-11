@@ -4,7 +4,7 @@ class Expense: #expense tracker
         self.amount = amount
         self.category = category
 
-class ExpenseTracker:
+class ExpenseTracker: #leraning git
     def __init__(self):
         self.expenses = []
 
