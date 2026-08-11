@@ -1,10 +1,10 @@
-class Expense: #expense tracker
+class Expense: 
     def __init__(self,title, amount, category):
         self.title = title
         self.amount = amount
         self.category = category
 
-class ExpenseTracker: #leraning git
+class ExpenseTracker:
     def __init__(self):
         self.expenses = []
 
