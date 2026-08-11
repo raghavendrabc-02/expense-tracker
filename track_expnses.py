@@ -1,4 +1,4 @@
-class Expense:
+class Expense: #expense tracker
     def __init__(self,title, amount, category):
         self.title = title
         self.amount = amount
@@ -28,7 +28,7 @@ class ExpenseTracker:
             print("Amount: ", self.amount)
             print("Category: ", self.category)
 
-    def calculate_expenses(self)
+    def calculate_expenses(self):
         total = 0
         for expense in self.expenses:
             total = total + expense.amount
